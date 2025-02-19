@@ -5,9 +5,9 @@ import string
 import os
 import math
 
-studentVle = pd.read_csv('data/OULAD_Dataset/studentVle.csv')
-studentInfo = pd.read_csv('data/OULAD_Dataset/studentInfo.csv')
-vle = pd.read_csv('data/OULAD_Dataset/vle.csv')
+studentVle = pd.read_csv('data/studentVle.csv')
+studentInfo = pd.read_csv('data/studentInfo.csv')
+vle = pd.read_csv('data/vle.csv')
 studentVle = studentVle[studentVle['date']>-1]
 course_type = {'AAA':1,'BBB':1,'CCC':2,'DDD':2,'EEE':2,'FFF':2,'GGG':1}
 studentInfo['course_type'] = studentInfo['code_module'].map(course_type)
