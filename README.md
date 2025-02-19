@@ -16,7 +16,7 @@ Early identification of at-risk learners is crucial for improving learning outco
    - Run `02-model_train.py`, which will automatically train various models.
    - To switch between models, modify the `MODEL_NAME` variable in the script, for example:
      ```python
-     MODEL_NAME = 'RFC'  # Select different models such as 'SVM', 'XGBoost', etc.
+     MODEL_NAME = 'RFC'  # Select different models such as 'SVM', 'KNN', etc.
      ```
 
 3. **Explainability Analysis**
